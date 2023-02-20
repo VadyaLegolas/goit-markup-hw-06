@@ -507,7 +507,7 @@
           <form class="contact-form">
             <b>Залиште свої дані, ми вам передзвонимо</b>
             <label for="user-name" class="contact-form-field"> Ім'я </label>
-            <div class="contact-form-input-wraper">
+            <div class="contact-form-input-wrapper">
               <input
                 id="user-name"
                 name="user_name"
@@ -520,7 +520,7 @@
             </div>
 
             <label for="user-phone" class="contact-form-field"> Телефон</label>
-            <div class="contact-form-input-wraper">
+            <div class="contact-form-input-wrapper">
               <input
                 id="user-phone"
                 name="user_phone"
@@ -533,7 +533,7 @@
             </div>
 
             <label for="user-email" class="contact-form-field"> Пошта</label>
-            <div class="contact-form-input-wraper">
+            <div class="contact-form-input-wrapper">
               <input
                 id="user-email"
                 name="user-email"
@@ -553,7 +553,7 @@
               placeholder="Введіть текст"
             ></textarea>
 
-            <div class="contact-form-checkbox-wraper">
+            <div class="contact-form-checkbox-wrapper">
               <input
                 name="accept_policy"
                 type="checkbox"
@@ -561,11 +561,10 @@
                 id="policy-checkbox"
                 required
               />
-              <label
-                for="policy-checkbox"
-                class="contact-form-checkbox-label"
-                >Погоджуюся з розсилкою та приймаю 
-                &nbsp;<a href="">Умови договору</a></label
+              <label for="policy-checkbox" class="contact-form-checkbox-label"
+                >Погоджуюся з розсилкою та приймаю &nbsp;<a href=""
+                  >Умови договору</a
+                ></label
               >
             </div>
 
@@ -672,19 +671,21 @@
         <div class="subscribe">
           <form class="subscribe-form js-speaker-form">
             <label for="subscribe-email">Підпишіться на розсилку</label>
-            <input
-              class="subscribe-form-input"
-              type="email"
-              id="subscribe-email"
-              name="subscribe-mail"
-              placeholder="E-mail"
-            />
-            <button type="submit" class="subscribe-form-btn">
-              Підписатися
-              <svg class="subscribe-icon" width="24px" height="24px">
-                <use href="./images/icons.svg#icon-send"></use>
-              </svg>
-            </button>
+            <div class="subscribe-form-wrapper">
+              <input
+                class="subscribe-form-input"
+                type="email"
+                id="subscribe-email"
+                name="subscribe-mail"
+                placeholder="E-mail"
+              />
+              <button type="submit" class="subscribe-form-btn">
+                Підписатися
+                <svg class="subscribe-icon" width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
       </div>
