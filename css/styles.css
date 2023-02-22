@@ -63,6 +63,8 @@ body {
   margin-right: auto;
 }
 
+
+
 /* -------START INDEX-------- */
 
 /* === START COMPONENTS === */
@@ -128,8 +130,8 @@ body {
 
 .modal {
   position: absolute;
-  min-width: 528px;
-  min-height: 581px;
+  width: 528px;
+  height: 581px;
   left: 50%;
   top: 50%;
   background: #ffffff;
@@ -298,6 +300,9 @@ body {
 }
 
 .contact-form-checkbox-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
 }
 
@@ -765,7 +770,7 @@ body {
 .subscribe {
   width: 570px;
   height: 86px;
-  margin-left: 93px;
+  margin-left: auto;
 }
 
 .subscribe-form-wrapper {
